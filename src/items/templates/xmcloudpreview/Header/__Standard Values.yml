@@ -1,0 +1,37 @@
+﻿---
+ID: "c5b207ec-83eb-4044-949b-fadcf389f677"
+Parent: "2f0fa82c-b739-4cb1-9817-93d5c814f48a"
+Template: "2f0fa82c-b739-4cb1-9817-93d5c814f48a"
+Path: /sitecore/templates/Project/xmcloudpreview/Header/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0c00d075-4271-4016-92d3-1c2cbd4b2038"
+      Hint: Heading
+      Value: Hello
+    - ID: "11a82b57-75a3-4b05-9291-460f5c0f8940"
+      Hint: Content
+      Value: My first component
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220504T093919Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01280f3b-b3fe-4b7b-abb3-97f5585b31cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220504T093942Z

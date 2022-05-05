@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
       Value: |
@@ -15,6 +18,14 @@ Languages:
           p:p="1">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B3DC598A-717A-48CA-ACE8-E291D1824B72}"
+              p:after="p[@uid='{D415ED7D-3C8A-555C-8B54-43B9F76B36DD}']"
+              s:ds="{47C7E043-3F64-4ACB-B406-6092F40A145D}"
+              s:id="{A570E8A3-955E-466B-8A9C-3352F3BBB7FC}"
+              s:par=""
+              s:ph="jss-main"
+              s:ccb="Clear on publish" />
             <r
               uid="{2C4A53CC-9DA8-5F51-9D79-6EE2FC671B2D}"
               p:after="*[1=2]"
@@ -33,11 +44,11 @@ Languages:
       Value: Welcome to Sitecore JSS on XM Cloud
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bde3c869-1655-4d9e-9bc2-2a71fe09f45e"
+      Value: "f65524fc-6d27-4265-a170-a03edca4f05b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sugcon-eu-admin@sitecore.com
+        sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220420T161746Z
+      Value: 20220504T094748Z
