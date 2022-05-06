@@ -1,18 +1,19 @@
-import { Text, Field, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
 
-type HeaderProps = {
-    fields: {
-        Heading: Field<string>,
-        Content: Field<string>
-    };
-}
+type HeaderProps = ComponentProps & {
+  fields: {
+    Heading: Field<string>;
+    Content: Field<string>;
+  };
+};
 
-const Header = (props: HeaderProps): JSX.Element => (
-    <div>
-        <h1>Boom!</h1>
-        <Text field={props.fields.Heading} />
-        <RichText field={props.fields.Content} />
-    </div>
+const Header = ({ fields }: HeaderProps): JSX.Element => (
+  <div>
+    <h1>Boom! - is this still working?</h1>
+    <Text tag="h2" field={fields.Heading} />
+    <RichText field={fields.Content} />
+  </div>
 );
 
-export default Header;
+export default withDatasourceCheck()<HeaderProps>(Header);

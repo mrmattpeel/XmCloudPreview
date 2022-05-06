@@ -11,11 +11,7 @@ import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentFactory } from 'temp/componentFactory';
 
-const SitecorePage = ({
-  notFound,
-  componentProps,
-  layoutData,
-}: SitecorePageProps): JSX.Element => {
+const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProps): JSX.Element => {
   useEffect(() => {
     // Since Sitecore editors do not support Fast Refresh, need to refresh EE chromes after Fast Refresh finished
     handleEditorFastRefresh();
