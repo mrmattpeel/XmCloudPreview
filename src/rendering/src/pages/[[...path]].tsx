@@ -10,7 +10,6 @@ import Layout from 'src/Layout';
 import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
 import { componentFactory } from 'temp/componentFactory';
-//import { StyleguideSpecimenFields } from 'lib/component-props';
 
 const SitecorePage = ({
   notFound,
