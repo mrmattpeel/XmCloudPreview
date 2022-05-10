@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-clean": "^0.4.0",
-    "gulp-foreach": "^0.1.0",
-    "gulp-newer": "^1.4.0"
-  }
-}
