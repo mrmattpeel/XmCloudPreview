@@ -73,6 +73,12 @@
     <None Include="README.md" />
     <None Include="web.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feature\POC\code\Jet2.Feature.POC.csproj">
+      <Project>{88f7af17-1ad5-4e91-8506-31485964a560}</Project>
+      <Name>Jet2.Feature.POC</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
