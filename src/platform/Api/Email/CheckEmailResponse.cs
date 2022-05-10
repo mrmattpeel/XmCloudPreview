@@ -1,4 +1,4 @@
-﻿namespace Jet2.Feature.POC.Api.Email
+﻿namespace XmCloudPreview.Api.Email
 {
     /// <summary>
     /// A Response back from some other API perhaps

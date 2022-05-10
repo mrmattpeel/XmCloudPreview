@@ -1,7 +1,7 @@
 ﻿using GraphQL.Types;
 using Sitecore.Services.GraphQL.Schemas;
 
-namespace Jet2.Feature.POC.Api.Email
+namespace XmCloudPreview.Api.Email
 {
     public class CheckEmailQuery : RootFieldType<CheckEmailGraphType, CheckEmailResponse>
     {
@@ -9,7 +9,7 @@ namespace Jet2.Feature.POC.Api.Email
         {
         }
 
-        /// <summary>
+        /// <summary>s
         /// This is where our external API data would be gathered
         /// </summary>
         /// <param name="context"></param>

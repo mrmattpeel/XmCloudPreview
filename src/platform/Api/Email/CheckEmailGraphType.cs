@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 
-namespace Jet2.Feature.POC.Api.Email
+namespace XmCloudPreview.Api.Email
 {
     /// <summary>
     /// Map the DTO to a GraphQL type
