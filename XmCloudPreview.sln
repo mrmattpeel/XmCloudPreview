@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{08D4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Config", "0. Config", "{C31E7FEC-FC6F-4080-AC01-902384434F0E}"
 	ProjectSection(SolutionItems) = preProject
-		CopyConfigs.js = CopyConfigs.js
+		gulpfile.js = gulpfile.js
 	EndProjectSection
 EndProject
 Global

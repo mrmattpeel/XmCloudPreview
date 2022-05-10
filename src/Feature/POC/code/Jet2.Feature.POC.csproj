@@ -104,7 +104,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Custom\Sitecore.GraphQL.config" />
+    <Content Include="App_Config\Include\Custom\Feature\Sitecore.GraphQL.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
