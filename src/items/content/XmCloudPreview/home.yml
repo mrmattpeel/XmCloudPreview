@@ -28,12 +28,22 @@ Languages:
               s:ccb="Clear on publish" />
             <r
               uid="{2C4A53CC-9DA8-5F51-9D79-6EE2FC671B2D}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{B3DC598A-717A-48CA-ACE8-E291D1824B72}']"
               s:rname="ContentBlock"
               s:ds="{20E0B322-4E44-5DDA-A703-3817458CBE18}"
               s:id="{4D4B5854-E855-50FA-8B97-D6D504DA0FD1}"
               s:par=""
               s:ph="/jss-main" />
+            <r
+              uid="{47A1DF81-7B90-400B-99F4-B10926ED5743}"
+              p:after="*[1=2]"
+              s:cac="1"
+              s:ds="{83E623FB-180B-4E9A-A85E-77E11452BD9B}"
+              s:id="{7B537145-61B1-4C33-B090-DA958D867B02}"
+              s:par=""
+              s:ph="jss-main"
+              s:vbd="1"
+              s:ccb="Clear on publish" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -44,11 +54,11 @@ Languages:
       Value: Welcome to Sitecore JSS on XM Cloud
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f65524fc-6d27-4265-a170-a03edca4f05b"
+      Value: "de2a455d-6121-47f4-b68e-1fcc62b75f04"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220504T094748Z
+      Value: 20220509T154249Z

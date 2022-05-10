@@ -3,18 +3,16 @@ import { ComponentProps } from 'lib/component-props';
 
 type HeaderProps = ComponentProps & {
   fields: {
-    Heading: Field<string>;
+    Title: Field<string>;
     Content: Field<string>;
   };
 };
 
-const Header = ({ fields }: HeaderProps): JSX.Element => (
+const Footer = ({ fields }: HeaderProps): JSX.Element => (
   <div>
-    <h1>Boom!</h1>
-    <h2>Smaller Boom!</h2>
-    <Text tag="h2" field={fields.Heading} />
+    <Text tag="h2" field={fields.Title} />
     <RichText field={fields.Content} />
   </div>
 );
 
-export default withDatasourceCheck()<HeaderProps>(Header);
+export default withDatasourceCheck()<HeaderProps>(Footer);
