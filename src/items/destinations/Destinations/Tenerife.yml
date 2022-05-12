@@ -1,0 +1,23 @@
+﻿---
+ID: "e655406b-b458-4507-9475-80593c3c9043"
+Parent: "555b0b0e-1b6b-4ad6-b8f0-8231f34d16eb"
+Template: "78efec83-8b31-44fd-86b5-2acb68405008"
+Path: /sitecore/content/Destinations/Tenerife
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220511T102831Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6058ed37-dd42-49de-b79d-08ad4ca9e8f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220511T102831Z
