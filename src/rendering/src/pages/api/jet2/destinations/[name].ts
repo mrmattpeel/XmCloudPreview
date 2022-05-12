@@ -16,10 +16,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       search(
         where: {
           AND: [
-            { name: "_template", value: "78efec838b3144fd86b52acb68405008", operator: EQ }
+            { name: "_templates", value: "78efec838b3144fd86b52acb68405008", operator: CONTAINS }
+            { name: "_name", value: "__Standard Values", operator: NEQ }
             { name: "_name", value: $term, operator: CONTAINS }
           ]
         }
+        first: 3
       ) {
         total
         results {
