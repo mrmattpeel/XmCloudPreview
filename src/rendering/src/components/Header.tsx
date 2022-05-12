@@ -10,7 +10,7 @@ type HeaderProps = ComponentProps & {
 
 const Header = ({ fields }: HeaderProps): JSX.Element => (
   <div>
-    <h1>Boom! 2</h1>
+    <h1>Boom!</h1>
     <Text tag="h2" field={fields.Heading} />
     <RichText field={fields.Content} />
   </div>
