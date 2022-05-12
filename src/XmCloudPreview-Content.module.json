@@ -10,6 +10,10 @@
             {
                 "name": "media",
                 "path": "/sitecore/media library/xmcloudpreview"
+            },
+            {
+                "name": "destinations",
+                "path": "/sitecore/content/Destinations"
             }
         ]
     }
