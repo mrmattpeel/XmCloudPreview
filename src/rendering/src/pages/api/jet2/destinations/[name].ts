@@ -13,22 +13,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const query = gql`
     query getDestinations($term: String!) {
-      search (
+      search(
         where: {
           AND: [
-            {
-              name: "_template"
-            	value: "78efec838b3144fd86b52acb68405008"
-            	operator: EQ  
-            },
-            {
-              name: "_name"
-            	value: $term
-            	operator: CONTAINS  
-            }
+            { name: "_template", value: "78efec838b3144fd86b52acb68405008", operator: EQ }
+            { name: "_name", value: $term, operator: CONTAINS }
           ]
         }
-    ) {
+      ) {
         total
         results {
           id
@@ -45,10 +37,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         }
       }
     }
-  `
-  
+  `;
+
   const variables = {
-    term: name
+    term: name,
   };
 
   graphQLClient.request(query, variables).then((response) => {
