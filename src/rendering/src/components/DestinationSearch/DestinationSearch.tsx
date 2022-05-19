@@ -11,8 +11,8 @@ type DestinationSearchProps = ComponentProps & {
 
 const DestinationSearch = ({ fields }: DestinationSearchProps): JSX.Element => (
   <div>
-      <label>{fields.DestinationLabel.value}</label>
-      <AutoCompleteBox phText={fields.SearchBoxPlaceholderText.value} />
+    <label>{fields.DestinationLabel.value}</label>
+    <AutoCompleteBox phText={fields.SearchBoxPlaceholderText.value} />
   </div>
 );
 
