@@ -1,8 +1,8 @@
 ﻿---
-ID: "3860bd73-c6e3-447c-a6bd-f292857ccde3"
+ID: "03ae15b4-6929-41e9-8afb-ea1bcc979b8b"
 Parent: "d298a972-215b-4d1e-93e0-92f837040bf0"
 Template: "b0d0979e-5f1e-4ba0-9ddc-f4678592f5af"
-Path: /sitecore/content/Shared Links/Jet2holidays
+Path: /sitecore/content/Shared Links/Jet2Insurance
 Languages:
 - Language: en
   Versions:
@@ -10,13 +10,13 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220519T111253Z
+      Value: 20220519T143821Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a066bc6-9f64-4bdf-9337-181653a595a6"
+      Value: "d9095720-2d90-4184-86fa-5ad296f42886"
     - ID: "9a4108be-11a4-4ef9-9293-d87a8b79c7b3"
       Hint: Title
-      Value: Jet2holidays
+      Value: Jet2Insurance
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -24,7 +24,7 @@ Languages:
     - ID: "beced820-3075-45a9-ab1c-cdfd4e720449"
       Hint: Href
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{33CBF0FB-F5CE-5C8D-91F6-0B0F07A64B7D}" />
+        <link linktype="external" url="https://www.jet2insurance.com/?utm_source=holidays&amp;utm_medium=referral&amp;utm_campaign=topnavigationbar" anchor="" target="" />
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220519T151940Z
+      Value: 20220519T143836Z
