@@ -14,6 +14,10 @@
             {
                 "name": "destinations",
                 "path": "/sitecore/content/Destinations"
+            },
+            {
+                "name": "shared links",
+                "path": "/sitecore/content/Shared Links"
             }
         ]
     }

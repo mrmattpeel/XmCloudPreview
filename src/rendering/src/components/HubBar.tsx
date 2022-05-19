@@ -1,23 +1,23 @@
-//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-//import { ComponentProps } from 'lib/component-props';
+import { withDatasourceCheck, Item } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
 
 import Link from 'next/link';
 
-//type HubBarProps = ComponentProps & {
-//  fields: {
-//Heading: Field<string>;
-//Content: Field<string>;
-//  };
-//};
+type HubBarProps = ComponentProps & {
+  fields: {
+    Links: Item[];
+    //Content: Field<string>;
+  };
+};
 
-const HubBar = (/*{ fields }: HubBarProps*/): JSX.Element => (
+const HubBar = ({ fields }: HubBarProps): JSX.Element => (
   <div className="hub">
     <div className="close-menu-overlay"></div>
     <nav className="hub-container container">
       <ul className="hub-nav-menu hub-wrapper">
         <li className="hub-nav-menu__item hub-nav-menu__link--active">
           <Link href="/">
-            <a className="hub-nav-menu__link">Jet2holidays</a>
+            <a className="hub-nav-menu__link">Jet2holidays {fields.Links.length}</a>
           </Link>
         </li>
         <li className="hub-nav-menu__item ">
@@ -69,5 +69,4 @@ const HubBar = (/*{ fields }: HubBarProps*/): JSX.Element => (
   </div>
 );
 
-//export default withDatasourceCheck()<HubBarProps>(HubBar);
-export default HubBar;
+export default withDatasourceCheck()<HubBarProps>(HubBar);
