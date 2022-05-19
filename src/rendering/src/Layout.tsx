@@ -7,16 +7,16 @@ import {
   LayoutServiceData,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import HubBar from 'src/components/HubBar';
-import ResponsiveHeader from 'components/ResponsiveHeader';
-import SearchPanel from 'components/SearchPanel';
-import HeroBanner from 'components/HeroBanner';
-import SiteSearchBox from 'components/SiteSearchBox';
-import InPageHub from 'components/InPageHub';
-import PromoCardList from 'components/PromoCardList';
-import TitleAndText from 'components/TitleAndText';
-import InfoBanner from 'components/InfoBanner';
-import FooterLinks from 'components/FooterLinks';
-import ResponsiveFooter from 'components/ResponsiveFooter';
+//import ResponsiveHeader from 'components/ResponsiveHeader';
+//import SearchPanel from 'components/SearchPanel';
+//import HeroBanner from 'components/HeroBanner';
+//import SiteSearchBox from 'components/SiteSearchBox';
+//import InPageHub from 'components/InPageHub';
+//import PromoCardList from 'components/PromoCardList';
+//import TitleAndText from 'components/TitleAndText';
+//import InfoBanner from 'components/InfoBanner';
+//import FooterLinks from 'components/FooterLinks';
+//import ResponsiveFooter from 'components/ResponsiveFooter';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -55,10 +55,10 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <div className='outer'>
         { route && <Placeholder name="jss-top" rendering={route} /> }
         <HubBar />
-        <ResponsiveHeader />
+        {/*<ResponsiveHeader />*/}
         <div className='site-content'>
           { /*route && <Placeholder name="jss-main" rendering={route} />*/ }
-          <SearchPanel />
+          {/*<SearchPanel />
           <HeroBanner />
           <SiteSearchBox />
           <InPageHub />
@@ -67,15 +67,13 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
           <PromoCardList />
           <TitleAndText />
           <FooterLinks />
-          <ResponsiveFooter /> 
+    <ResponsiveFooter /> */}
         </div>
       </div>
       
       <link href="https://www.jet2holidays.com/dist/beach.bundle-0169071ff08050b4cdd9.css" rel="preload" as="style" />
       <link href="https://www.jet2holidays.com/dist/beach.bundle-0169071ff08050b4cdd9.css" rel="stylesheet" />
       <link href="https://www.jet2holidays.com/-/media/jet2holidays/stylesheets/home-v2/home-v2-internal-9.css" rel="stylesheet"></link>
-
-      { route && <Placeholder name="jss-bottom" rendering={route} />}
     </>
   );
 };

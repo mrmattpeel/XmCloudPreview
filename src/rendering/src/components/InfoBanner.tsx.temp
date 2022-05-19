@@ -1,12 +1,12 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+//import { ComponentProps } from 'lib/component-props';
 
-type InfoBannerProps = ComponentProps & {
-  fields: {
+//type InfoBannerProps = ComponentProps & {
+//  fields: {
     //Heading: Field<string>;
     //Content: Field<string>;
-  };
-};
+//  };
+//};
 
 const InfoBanner = (/*{ fields }: InfoBannerProps*/): JSX.Element => (
   <div>

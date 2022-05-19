@@ -1,12 +1,12 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+//import { ComponentProps } from 'lib/component-props';
 
-type SiteSearchBoxProps = ComponentProps & {
-  fields: {
+//type SiteSearchBoxProps = ComponentProps & {
+//  fields: {
     //Heading: Field<string>;
     //Content: Field<string>;
-  };
-};
+//  };
+//};
 
 const SiteSearchBox = (/*{ fields }: SiteSearchBoxProps*/): JSX.Element => (
   <div className="search-nav-input" style={{display:'none'}}>

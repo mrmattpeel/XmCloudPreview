@@ -1,12 +1,12 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+//import { ComponentProps } from 'lib/component-props';
 
-type ResponsiveFooterProps = ComponentProps & {
-  fields: {
+//type ResponsiveFooterProps = ComponentProps & {
+//  fields: {
     //Title: Field<string>;
     //Content: Field<string>;
-  };
-};
+//  };
+//};
 
 const ResponsiveFooter = (/*{ fields }: ResponsiveFooterProps*/): JSX.Element => (
   <footer className="footer-v2" data-component="Content/Footer/ResponsiveFooter">

@@ -1,13 +1,13 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
-import Image from 'next/image';
+//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+//import { ComponentProps } from 'lib/component-props';
+//import Image from 'next/image';
 
-type HeroBannerProps = ComponentProps & {
-  fields: {
+//type HeroBannerProps = ComponentProps & {
+//  fields: {
     //Heading: Field<string>;
     //Content: Field<string>;
-  };
-};
+//  };
+//};
 
 const HeroBanner = (/*{ fields }: HeroBannerProps*/): JSX.Element => (
   <div className="">

@@ -1,12 +1,12 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+//import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+//import { ComponentProps } from 'lib/component-props';
 
-type SearchPanelProps = ComponentProps & {
-  fields: {
+//type SearchPanelProps = ComponentProps & {
+//  fields: {
     //Heading: Field<string>;
     //Content: Field<string>;
-  };
-};
+//  };
+//};
 
 const SearchPanel = (/*{ fields }: SearchPanelProps*/): JSX.Element => (
   <div className="search-panel--v2"> 
