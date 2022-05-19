@@ -1,25 +1,38 @@
 import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
+import axios from 'axios';
+import AutoCompleteBox from './AutoCompleteBox';
 
 type DestinationSearchProps = ComponentProps & {
-    fields: {
-      DestinationLabel: Field<string>;
-      SearchBoxPlaceholderText: Field<string>;
-    };
+  fields: {
+    DestinationLabel: Field<string>;
+    SearchBoxPlaceholderText: Field<string>;
   };
+};
 
 const sayHello = (name: string) => {
-    console.log(`Hello ${name}`);
+  console.log(`Greetings ${name}`);
+};
+
+const makeSearchRequest = (searchTerm: string) => {
+  axios.get(`https://www.xmcloudpreview.localhost/api/jet2/destinations/${searchTerm}`);
 }
 
+const DestinationSearch = ({ fields }: DestinationSearchProps): JSX.Element => (
+  <div>
+      <label htmlFor="search-input-desktop">{fields.DestinationLabel}</label>
+      <input
+        onClick={() => sayHello('Nick')}
+        onKeyDown={() => makeSearchRequest('Ibiza')}
+        id="search-input-desktop"
+        type="search"
+        placeholder="hello"
+      />
+      <br/>
+      <br/>
+      <label htmlFor="search-input-desktop">{`NEW ${fields.DestinationLabel}`}</label>
+      <AutoCompleteBox />
+  </div>
+);
 
-const destinationSearch = ({ fields }: DestinationSearchProps): JSX.Element => (
-    <div>
-        <form>
-            <label htmlFor="search-input-desktop" className="search-nav-input__label">{fields.DestinationLabel.value}</label>
-            <input onClick={() => sayHello("Nick")} onKeyDown={() => sayHello("Uncle Bob")} id="search-input-desktop" type="search" className="search-nav-input__input js-search-nav-input ui-autocomplete-input" placeholder="hello" />
-        </form>
-    </div>
-  );
-
-  export default withDatasourceCheck()<DestinationSearchProps>(destinationSearch);
+export default withDatasourceCheck()<DestinationSearchProps>(DestinationSearch);
