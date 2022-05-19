@@ -1,4 +1,4 @@
-import { withDatasourceCheck, Field, Item } from '@sitecore-jss/sitecore-jss-nextjs';
+import { withDatasourceCheck, Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import HubBarItem from './HubBarItem';
 import Link from 'next/link';
