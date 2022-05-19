@@ -1,15 +1,15 @@
 ﻿---
-ID: "e9882995-2e28-4437-b41c-91d958508f50"
+ID: "f7f8eb9f-0789-49ac-a006-fc1e009d89b2"
 Parent: "4c1b63e0-3a8f-4516-9d12-eca873dd6af6"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/xmcloudpreview/DestinationSearch/Content/Search Box Placeholder Text
+Path: /sitecore/templates/Project/xmcloudpreview/DestinationSearch/Content/DestinationLabel
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -28,7 +28,7 @@ Languages:
         sitecore\matthew.peel@jet2.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c0d1dbc8-0bf8-4fcf-a4a1-ce4f44c32a5b"
+      Value: "46467258-85f7-4231-9275-e21c7ac257df"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

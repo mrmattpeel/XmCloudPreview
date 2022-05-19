@@ -1,7 +1,11 @@
-const ResultsList = (searchResults: any) => {
-    return searchResults.length ? (
+const ResultsList = (props: any) => {
+  const hasData = (searchResultsData: any) =>{
+    return searchResultsData.length > 0;
+  }  
+  
+  return hasData(props.searchResults) ? (
       <ul>
-        {searchResults.map((destination: string) => {
+        {props.searchResults.map((destination: string) => {
           return (
             <li>
               {destination}
