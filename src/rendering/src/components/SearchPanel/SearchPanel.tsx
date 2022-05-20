@@ -21,7 +21,7 @@ const SearchPanel = (/*{ fields }: SearchPanelProps*/): JSX.Element => (
                                     <label className="search-box-group__label" htmlFor="search-box-from">From</label>
                                 </div>
                                 <div className="search-box-group__field">
-                                    <input className="search-box-group__input search-box-group__input--blue" name="departureAirports" placeholder="Type departure airport" type="text" value="" />
+                                    <input className="search-box-group__input search-box-group__input--blue" name="departureAirports" placeholder="Type departure airport" type="text" />
                                     <span className="search-box-group__clear-input"></span>
                                 </div>
                                 <button className="search-box-group__link" type="button">See list</button>
@@ -33,7 +33,7 @@ const SearchPanel = (/*{ fields }: SearchPanelProps*/): JSX.Element => (
                                     <label className="search-box-group__label" htmlFor="search-box-to">To</label>
                                 </div>
                                 <div className="search-box-group__field">
-                                    <input autoComplete="off" className="search-box-group__input search-box-group__input--blue" name="destinations" placeholder="Type destination or hotel" type="text" value="" />
+                                    <input autoComplete="off" className="search-box-group__input search-box-group__input--blue" name="destinations" placeholder="Type destination or hotel" type="text" />
                                     <span className="search-box-group__clear-input"></span>
                                 </div>
                                 <button className="search-box-group__link" type="button">See list</button>
