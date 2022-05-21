@@ -1,15 +1,15 @@
 ﻿---
-ID: "37b153e5-bf43-5107-8d25-33490357ba9a"
-Parent: "db0e6fd8-e94a-524a-b386-103e3355fa46"
-Template: "35c61e90-47dd-43dd-83a8-d1c4d5119720"
-Path: /sitecore/layout/Layouts/Project/xmcloudpreview/xmcloudpreview Layout
+ID: "367e4de4-bad4-4826-94ee-58bf85a435b6"
+Parent: "7e56643e-382c-41c8-ac00-68904f2b9973"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/xmcloudpreview/ResponsiveHeader/Content/MmbSubText
 SharedFields:
-- ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
-  Hint: Placeholders
-  Value: |
-    {C2258A7E-A478-40BF-93B8-B82FCC9FF429}
-    {3FBC0D8D-E951-54DB-8A9B-915F8F1A76CF}
-    {CFF85161-3E38-4157-BA2B-F9A5B1DC9893}
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
 Languages:
 - Language: en
   Versions:
@@ -17,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220420T144959Z
+      Value: 20220520T104349Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\JssImport
+        sitecore\matthew.peel@jet2.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\JssImport
+        sitecore\matthew.peel@jet2.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "46247bd4-7630-4bf4-b588-e44c6706361c"
+      Value: "3cd81681-a9b7-41bf-bc67-b8d495c3a667"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220520T134814Z
+      Value: 20220520T124111Z

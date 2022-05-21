@@ -1,15 +1,8 @@
 ﻿---
-ID: "607df2f8-84a8-4391-ac2b-985cc9778aa3"
-Parent: "307c2b28-3a9b-4ff8-b47f-5af54528135e"
-Template: "307c2b28-3a9b-4ff8-b47f-5af54528135e"
-Path: /sitecore/templates/Project/xmcloudpreview/Link Folder/__Standard Values
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: |
-    {B0D0979E-5F1E-4BA0-9DDC-F4678592F5AF}
-    {307C2B28-3A9B-4FF8-B47F-5AF54528135E}
-    {8922714B-96CC-4A2F-91E7-7D05BA62433E}
+ID: "b872ebfb-ec8d-4167-93bf-cf2c47fedac0"
+Parent: "8922714b-96cc-4a2f-91e7-7d05ba62433e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/xmcloudpreview/MenuLink/Content
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220519T100427Z
+      Value: 20220521T112336Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\matthew.peel@jet2.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0cb7eac2-80a3-4823-95d5-09a88c240fb0"
+      Value: "b0e591d2-dda0-4b9a-930a-c4fe749ed097"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220521T112400Z
+      Value: 20220521T112336Z
