@@ -6,7 +6,6 @@ import {
   Link,
   LinkField,
   Text,
-  Placeholder,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
