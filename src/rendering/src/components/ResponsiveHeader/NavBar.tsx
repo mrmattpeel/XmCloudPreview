@@ -4,21 +4,31 @@ import {
   Image,
   Link,
   LinkField,
+  Field
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import React from 'react';
+import DestinationSearchInteral from '../DestinationSearch/DestinationSearchInteral';
 
 type NavBarProps = ComponentProps & {
   fields: {
     HomeLink: LinkField;
     HomeIcon: ImageField;
     MenuOptions: MenuLinkModel[];
+    DestinationSearchBox: DestinationSearchProps;
   };
 };
 
 type MenuLinkModel = {
   fields: {
     LinkItem: LinkField;
+  };
+};
+
+type DestinationSearchProps = ComponentProps & {
+  fields: {
+    DestinationLabel: Field<string>;
+    SearchBoxPlaceholderText: Field<string>;
   };
 };
 
@@ -44,6 +54,25 @@ const NavBar = (props: NavBarProps) => {
               );
             })
           )}
+                  </ul>
+          <div className="nav-bar__tabs hide-small">
+            <ul className="nav-bar__tabs-list">
+              <li className="nav-bar__tabs-list-search-hotel-item">
+                <div className="search-nav-button">
+                  <DestinationSearchInteral fields={props.fields.DestinationSearchBox.fields} />
+
+                  {/* <a
+                    href="#search-nav-button"
+                    className="search-nav-button__btn js-toggle-search-nav-button-btn"
+                    aria-selected="false"
+                    role="button"
+                  >
+                    Find Hotel / Destination
+                  </a> */}
+                </div>
+              </li>
+              </ul>
+              </div>
 
           {/*
 
@@ -92,7 +121,6 @@ const NavBar = (props: NavBarProps) => {
                   </a>
                 </div>
               </li> */}
-        </ul>
       </nav>
     </div>
   );

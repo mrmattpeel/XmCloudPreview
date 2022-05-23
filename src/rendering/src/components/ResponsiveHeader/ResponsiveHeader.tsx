@@ -58,7 +58,8 @@ const ResponsiveHeader = (props: ResponsiveHeaderProps): JSX.Element => {
             </span>
           </div>
         </div>
-        <Placeholder rendering={props.rendering} name={props.fields.NavBarPlaceHolder.value} />
+        {/* <Placeholder rendering={props.rendering} name="header-nav-bar" /> */}
+
         {/* <Placeholder
         rendering={props.rendering}
         name={props.fields.NavBarPlaceHolder.value}

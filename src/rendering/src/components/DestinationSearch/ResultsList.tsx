@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ResultsList = (props: any) => {
   const hasData = (searchResultsData: any) => {
     return searchResultsData.length > 0;
@@ -5,9 +7,11 @@ const ResultsList = (props: any) => {
 
   return hasData(props.searchResults) ? (
     <ul>
-      {props.searchResults.map((destination: string) => {
+      {React.Children.toArray(
+      props.searchResults.map((destination: string) => {
         return <li>{destination}</li>;
-      })}
+      })
+      )}
     </ul>
   ) : (
     <div>

@@ -10,7 +10,7 @@ type DestinationSearchProps = ComponentProps & {
 };
 
 const DestinationSearch = ({ fields }: DestinationSearchProps): JSX.Element => (
-  <div>
+  <div className="search-nav-input__form">
     <label>{fields.DestinationLabel.value}</label>
     <AutoCompleteBox phText={fields.SearchBoxPlaceholderText.value} />
   </div>
