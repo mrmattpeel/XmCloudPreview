@@ -1,0 +1,62 @@
+﻿---
+ID: "2129a115-7ef2-4899-b39f-c73d8efb6c4c"
+Parent: "be303180-8795-4e69-8e3b-5eb41881552e"
+Template: "be303180-8795-4e69-8e3b-5eb41881552e"
+Path: /sitecore/templates/Project/xmcloudpreview/ResponsiveHeader/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "056bbf7f-b4f1-4001-82da-cd923d69a12f"
+      Hint: LogoLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{33CBF0FB-F5CE-5C8D-91F6-0B0F07A64B7D}" />
+    - ID: "0e430ae0-0ea7-44ed-a179-1cfb574bde2b"
+      Hint: LogoImage
+      Value: |
+        <image mediaid="{EF326C22-FEAF-4B7D-942B-D0BB959ABAD0}" />
+    - ID: "2163a2ce-ea43-4cc8-91d8-a59ae2135753"
+      Hint: NavBarPlaceHolder
+      Value: "header-nav-bar"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220520T102809Z
+    - ID: "367e4de4-bad4-4826-94ee-58bf85a435b6"
+      Hint: MmbSubText
+      Value: "Online Check-in"
+    - ID: "51bcdc9c-21ce-41d9-9119-dcbacc7198ab"
+      Hint: PhoneNumber
+      Value: |
+        <link text="0800 408 0778" linktype="external" url="tel:0800 408 0778" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "959e45f3-f030-4785-886a-c47716f77e48"
+    - ID: "ae05fe4f-ad80-48e8-ba4a-9867f3eef4f9"
+      Hint: MmbSubText2
+      Value: Add Holiday Essentials
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220520T125846Z
+    - ID: "e2075168-4a44-41f3-8d7d-d06d1ff8de66"
+      Hint: MmbLink
+      Value: |
+        <link text="Manage My Booking" linktype="external" url="https://www.jet2holidays.com/mmb/direct/login" anchor="" target="" />
+    - ID: "f89225a8-b9fa-4a2a-83a7-dbf1a18fe6e9"
+      Hint: PhoneNumberText
+      Value: "Call today from 8am-10pm"
+    - ID: "fe0541eb-07f7-4ce7-9f92-c60f386f0c17"
+      Hint: MmbText
+      Value: Manage My Booking

@@ -1,0 +1,23 @@
+﻿---
+ID: "a72cd47c-d271-402e-85a6-c54e2d6d7cf1"
+Parent: "1313e800-7222-4056-9432-aa08bc82c9da"
+Template: "00375756-866b-40c3-8bde-922f9c6ca596"
+Path: /sitecore/content/XmCloudPreview/Components/Destination Search/Destination Search 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T081042Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0c7b14b-2f08-4dec-b503-2e503c8ffe75"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220513T081042Z

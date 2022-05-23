@@ -1,0 +1,50 @@
+﻿---
+ID: "e94f1cfb-17f8-42ec-8e54-d6856970d27c"
+Parent: "82a32a77-33c7-4752-abb0-e3ea6f825d8e"
+Template: "82a32a77-33c7-4752-abb0-e3ea6f825d8e"
+Path: /sitecore/templates/Project/xmcloudpreview/NavBar/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "123e2711-6e1e-43b7-a87d-942c143d0783"
+      Hint: DestinationSearchBox
+      Value: "{A72CD47C-D271-402E-85A6-C54E2D6D7CF1}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220520T145830Z
+    - ID: "4ea88801-4ca1-4ca7-8f6c-ffacca4fac00"
+      Hint: HomeIcon
+      Value: |
+        <image mediaid="{24C677E3-AD74-4A25-8089-40037610300C}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d3b5905-c208-4d6c-8551-ad622d425b1c"
+    - ID: "905d8a1b-a806-47f4-90a6-a31a94d62a59"
+      Hint: MenuOptions
+      Value: |
+        {FA62775B-EBC1-4CE4-BCFD-4455273BB189}
+        {EAAC29EE-6E1D-45C1-B327-8BFC02D21168}
+        {C681E8E9-F93E-40F4-AE31-CBFD4EEEB410}
+        {26B37272-CBFC-4283-A65E-6F3A571DAE8C}
+        {C683EEC9-9862-457A-B0E7-959525175F4F}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220523T095812Z
+    - ID: "fd1b3407-423b-4088-be56-abcb5dfeb598"
+      Hint: HomeLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{33CBF0FB-F5CE-5C8D-91F6-0B0F07A64B7D}" />

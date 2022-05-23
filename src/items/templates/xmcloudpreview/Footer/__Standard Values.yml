@@ -1,0 +1,37 @@
+﻿---
+ID: "b892fdaa-c238-4b9f-88c1-dd794082a1dc"
+Parent: "bb5a51af-020c-4655-8cdd-f2c0b1d45f7b"
+Template: "bb5a51af-020c-4655-8cdd-f2c0b1d45f7b"
+Path: /sitecore/templates/Project/xmcloudpreview/Footer/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T152553Z
+    - ID: "3caaa5f0-ae01-456b-b973-098154f1997e"
+      Hint: Title
+      Value: Down Low
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73de2677-23af-4a73-b6a5-97e43f5b9563"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "c2a9fa3a-7408-428d-a717-b8441e978c1a"
+      Hint: Content
+      Value: <p>This is my <strong>F O O T E R</strong></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220509T162139Z

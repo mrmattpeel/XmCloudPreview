@@ -6,7 +6,10 @@ Path: /sitecore/layout/Layouts/Project/xmcloudpreview/xmcloudpreview Layout
 SharedFields:
 - ID: "80334869-86dc-4472-aa89-44cf1b2f6c9b"
   Hint: Placeholders
-  Value: "{3FBC0D8D-E951-54DB-8A9B-915F8F1A76CF}"
+  Value: |
+    {C2258A7E-A478-40BF-93B8-B82FCC9FF429}
+    {3FBC0D8D-E951-54DB-8A9B-915F8F1A76CF}
+    {CFF85161-3E38-4157-BA2B-F9A5B1DC9893}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +28,11 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "18b815c8-d4ac-4a45-9147-2ee89926560b"
+      Value: "46247bd4-7630-4bf4-b588-e44c6706361c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\JssImport
+        sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220420T144959Z
+      Value: 20220520T134814Z

@@ -3,28 +3,109 @@ ID: "33cbf0fb-f5ce-5c8d-91f6-0b0f07a64b7d"
 Parent: "ec720472-7b51-532e-931e-0d3478e0356a"
 Template: "899228a0-a4ce-570a-ae24-97566af3dab6"
 Path: /sitecore/content/XmCloudPreview/home
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p
+          uid="{47213AE9-066E-4227-8B72-182E3202043A}"
+          p:after="p[@uid='{D415ED7D-3C8A-555C-8B54-43B9F76B36DD}']"
+          s:key="jss-top"
+          s:md="{C2258A7E-A478-40BF-93B8-B82FCC9FF429}" />
+        <p
+          uid="{3C0173E3-11B6-4AE7-87F8-0D29EC04D893}"
+          p:after="p[@uid='{47213AE9-066E-4227-8B72-182E3202043A}']"
+          s:key="header-nav-bar"
+          s:md="{CFF85161-3E38-4157-BA2B-F9A5B1DC9893}" />
+        <r
+          uid="{16216460-BDC7-4759-A30D-1152811841A8}"
+          p:after="p[@uid='{47213AE9-066E-4227-8B72-182E3202043A}']"
+          s:ds="{5FF2A91C-D31A-49B8-9F89-8B1863856F1C}"
+          s:id="{99F9048F-3B9B-48A5-A9FA-C0997A1FA688}"
+          s:par=""
+          s:ph="/jss-top"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9530E83D-D056-441D-8C46-B3DC9CCE5BCB}"
+          p:after="r[@uid='{16216460-BDC7-4759-A30D-1152811841A8}']"
+          s:ds="{951FDEBB-0EE5-4650-A7F7-0FBFDF1B07F9}"
+          s:id="{92692999-78EA-49AB-A5A3-FE7D7869962D}"
+          s:par=""
+          s:ph="/jss-top"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{09DC22DA-C82C-40BD-AE08-E7BEC0772236}"
+          p:after="*[1=2]"
+          s:ds="{0D30B60F-B357-4466-A2B4-29A32FB5861B}"
+          s:id="{4DDEF600-EE8D-40BE-B717-D83BA2E65E40}"
+          s:par=""
+          s:ph="/jss-top"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{358B7F1D-0607-429A-B71C-2CECE2FAD835}"
+          p:after="r[@uid='{16216460-BDC7-4759-A30D-1152811841A8}']"
+          s:id="{1E45B1B0-835D-4660-BBB6-470A7CB721CB}"
+          s:ph="jss-main" />
+        <r
+          uid="{9C1F28FF-99E3-445D-A45D-883CF5A418BA}"
+          p:after="r[@uid='{358B7F1D-0607-429A-B71C-2CECE2FAD835}']"
+          s:id="{4E912247-126E-4CDF-AEA9-675F4B8C7698}"
+          s:ph="jss-main" />
+        <r
+          uid="{ED3A0597-36DA-4DD0-A6A8-46863F69854A}"
+          p:after="r[@uid='{9C1F28FF-99E3-445D-A45D-883CF5A418BA}']"
+          s:id="{4DD2D369-310A-40EE-AE3C-61B9BFF0D139}"
+          s:ph="jss-main" />
+        <r
+          uid="{FA8A5786-AF8B-43B0-81BC-48EBA45E67E7}"
+          p:after="r[@uid='{ED3A0597-36DA-4DD0-A6A8-46863F69854A}']"
+          s:id="{063B1367-95F9-437D-92CB-4EC86B367EF1}"
+          s:ph="jss-main" />
+        <r
+          uid="{4D08A0EB-9E50-4538-A892-3A7F5F73F37B}"
+          p:after="r[@uid='{FA8A5786-AF8B-43B0-81BC-48EBA45E67E7}']"
+          s:id="{CF6C69CB-2C2B-4A9E-B211-D988C5D5CEE6}"
+          s:ph="jss-main" />
+        <r
+          uid="{EDABEE90-209A-4BD9-8609-276B174DB11F}"
+          p:after="r[@uid='{4D08A0EB-9E50-4538-A892-3A7F5F73F37B}']"
+          s:id="{6C734231-6CFB-4CCB-8865-92F8172BBAA7}"
+          s:ph="jss-main" />
+        <r
+          uid="{D7F7A81C-E844-46E5-95AE-D3F1EB092760}"
+          p:after="r[@uid='{EDABEE90-209A-4BD9-8609-276B174DB11F}']"
+          s:id="{CF6C69CB-2C2B-4A9E-B211-D988C5D5CEE6}"
+          s:ph="jss-main" />
+        <r
+          uid="{D8EEDC4A-A0EC-4768-988E-8845BC779AA4}"
+          p:after="r[@uid='{D7F7A81C-E844-46E5-95AE-D3F1EB092760}']"
+          s:id="{94437F9C-C9A4-4B5C-9C3B-1964E4B5E7EC}"
+          s:ph="jss-main" />
+        <r
+          uid="{84115423-7CCC-48C5-A1B5-B8C4B77D8973}"
+          p:after="r[@uid='{D8EEDC4A-A0EC-4768-988E-8845BC779AA4}']"
+          s:id="{841B3201-AEC3-41CF-8985-9C07BDEF2FA9}"
+          s:ph="jss-main" />
+        <r
+          uid="{0256B5E4-524E-4A82-A131-E93A0712D3A6}"
+          p:after="*[1=2]"
+          s:id="{55D754F4-1157-4421-8451-121B399C0376}"
+          s:ph="jss-main" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
       Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{2C4A53CC-9DA8-5F51-9D79-6EE2FC671B2D}"
-              p:after="*[1=2]"
-              s:rname="ContentBlock"
-              s:ds="{20E0B322-4E44-5DDA-A703-3817458CBE18}"
-              s:id="{4D4B5854-E855-50FA-8B97-D6D504DA0FD1}"
-              s:par=""
-              s:ph="/jss-main" />
-          </d>
-        </r>
+        <r owner="sitecore\matthew.peel@jet2.com" date="20220523T081208Z" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20220420T145002Z
@@ -33,11 +114,11 @@ Languages:
       Value: Welcome to Sitecore JSS on XM Cloud
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bde3c869-1655-4d9e-9bc2-2a71fe09f45e"
+      Value: "cad4489d-0c55-4821-9aa5-437793d10ff3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sugcon-eu-admin@sitecore.com
+        sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220420T161746Z
+      Value: 20220520T183723Z

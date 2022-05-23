@@ -9,6 +9,8 @@
     <PlatformVersion>0.*</PlatformVersion>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Update="GraphQL" Version="2.4.0" />
+    <PackageReference Update="Sitecore.Services.GraphQL" Version="10.1.0" />
     <PackageReference Update="Sitecore.XmCloud.Kernel" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.ContentSearch" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.ContentSearch.Linq" Version="$(PlatformVersion)" />

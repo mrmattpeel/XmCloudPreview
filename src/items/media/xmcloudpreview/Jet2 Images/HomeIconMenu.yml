@@ -1,0 +1,60 @@
+﻿---
+ID: "24c677e3-ad74-4a25-8089-40037610300c"
+Parent: "7155386b-ec66-4780-a5b8-901e0a9d7209"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/xmcloudpreview/Jet2 Images/HomeIconMenu
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/24C677E3AD744A25808940037610300C.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 49
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "8447ea88-caf4-4272-976c-57a5404c4117"
+  Value: iVBORw0KGgoAAAANSUhEUgAAADEAAAAzCAYAAAA+VOAXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAyMjowNToyMSAxMTozNjo1N6M7IcoAAAG5SURBVGhD7Zm9TkIxFIDPVQkgSgQEXbiJERN/FlETjQmoi15YdTYxcZa4qcAr6CP4Lk5u8gRqooOLiU4aHbStNRHkr71tctDzJaTt4bbpF9rTAk7u9PoDepw+WfY0JIEFksACSWCBJLBAElggiXbsLo/AxeGEKG1jRWInG4X91Zio83J7PirqtjAuUZgdgoP1hGx9UdpIgMfitjAqkc9E4HgrKVv1nLB4bnJQtsxiTGLJDUO10Fzgm2oxBQvpsGyZw4jEzHgQKl4SggOOjDQnxN7notNjQRkxg28JNx4QAvFIv4y0J8GeqzCRdCwgI/7xJSEmxARUJ+Sy53k/3t8E2hLhgCMmors0+BIss/4hNo5ftCXKXgoW2Wb2A08G5RbZTAUtCZ5G8xkz6XJtKgJHm6OypYeyRIkdZPxAM0lxbvjXAamCkoS4QrArhQ1+XlVUUZKwfZnTHV97Y2OCJLCg9Ks4/5LTifPLJ6jdvUDjoFl28dtb6bzm82c3stY9Vj6Jq/tXqDW8bEJ7AgskgYX/J9FNlnl4fpe1em4f32StNbpZjP49xQJJYIEksEASWCAJLJAEFv6ABMAnyARL3sOcLMUAAAAASUVORK5CYII=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 593
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: PNG
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 49 x 51
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 51
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220521T103811Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Home icon
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2dc2b04c-afa1-4c11-8d3b-5c0b0556d436"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220523T130701Z
