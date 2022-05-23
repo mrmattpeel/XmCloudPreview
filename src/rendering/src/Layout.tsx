@@ -6,17 +6,6 @@ import {
   getPublicUrl,
   LayoutServiceData,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-//import HubBar from 'src/components/HubBar';
-//import ResponsiveHeader from 'components/ResponsiveHeader';
-//import SearchPanel from 'components/SearchPanel';
-//import HeroBanner from 'components/HeroBanner';
-//import SiteSearchBox from 'components/SiteSearchBox';
-//import InPageHub from 'components/InPageHub';
-//import PromoCardList from 'components/PromoCardList';
-//import TitleAndText from 'components/TitleAndText';
-//import InfoBanner from 'components/InfoBanner';
-//import FooterLinks from 'components/FooterLinks';
-//import ResponsiveFooter from 'components/ResponsiveFooter';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -61,24 +50,11 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       */}
       <VisitorIdentification />
 
-      {/*<Navigation />*/}
       {/* root placeholder for the app, which we add components to using route data */}
       <div className="outer">
         {route && <Placeholder name="jss-top" rendering={route} />}
-        {/*<HubBar />*/}
-        {/*<ResponsiveHeader />*/}
         <div className="site-content">
           {route && <Placeholder name="jss-main" rendering={route} />}
-          {/*<SearchPanel />
-          <HeroBanner />
-          <SiteSearchBox />
-          <InPageHub />
-          <PromoCardList />
-          <InfoBanner />
-          <PromoCardList />
-          <TitleAndText />
-          <FooterLinks />
-    <ResponsiveFooter /> */}
         </div>
       </div>
 
