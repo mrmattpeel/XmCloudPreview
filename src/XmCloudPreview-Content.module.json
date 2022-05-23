@@ -4,21 +4,21 @@
     "items": {
         "includes": [
             {
-                "name": "content",
-                "path": "/sitecore/content/XmCloudPreview"
-            },
-            {
                 "name": "media",
                 "path": "/sitecore/media library/xmcloudpreview"
+            },
+            {
+                "name": "shared links",
+                "path": "/sitecore/content/Shared Links"
             },
             {
                 "name": "destinations",
                 "path": "/sitecore/content/Destinations"
             },
             {
-                "name": "shared links",
-                "path": "/sitecore/content/Shared Links"
-            }
+                "name": "content",
+                "path": "/sitecore/content/XmCloudPreview"
+            },
         ]
     }
 }
