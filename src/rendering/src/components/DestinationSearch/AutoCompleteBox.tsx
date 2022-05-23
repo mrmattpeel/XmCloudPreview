@@ -41,10 +41,10 @@ const AutoCompleteBox = (props: ComponentProps): JSX.Element => {
   };
 
   return (
-    <span>
-      <input type="text" onChange={onChange} placeholder={props.phText} />
+    <form className='search-nav-input__input-wrapper'>
+      <input className='search-nav-input__input js-search-nav-input ui-autocomplete-input' type="text" onChange={onChange} placeholder={props.phText} />
       {showResults && searchResults && <ResultsList searchResults={searchResults} />}
-    </span>
+    </form>
   );
 };
 

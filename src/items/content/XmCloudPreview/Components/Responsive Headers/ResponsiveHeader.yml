@@ -1,0 +1,23 @@
+﻿---
+ID: "951fdebb-0ee5-4650-a7f7-0fbfdf1b07f9"
+Parent: "51f29289-56e2-411f-b078-f2445c8f677a"
+Template: "be303180-8795-4e69-8e3b-5eb41881552e"
+Path: /sitecore/content/XmCloudPreview/Components/Responsive Headers/ResponsiveHeader
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220520T103544Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b3b8bbb-2d12-486e-904c-064fbb9acf91"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\matthew.peel@jet2.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220520T103544Z

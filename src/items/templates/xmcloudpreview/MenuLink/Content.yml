@@ -1,18 +1,8 @@
 ﻿---
-ID: "c2258a7e-a478-40bf-93b8-b82fcc9ff429"
-Parent: "7ed89975-85c0-5064-8f33-a9947804ed9e"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: /sitecore/layout/Placeholder Settings/Project/xmcloudpreview/Top
-SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: "jss-top"
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Value: |
-    {99F9048F-3B9B-48A5-A9FA-C0997A1FA688}
-    {92692999-78EA-49AB-A5A3-FE7D7869962D}
-    {4DDEF600-EE8D-40BE-B717-D83BA2E65E40}
+ID: "b872ebfb-ec8d-4167-93bf-cf2c47fedac0"
+Parent: "8922714b-96cc-4a2f-91e7-7d05ba62433e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/xmcloudpreview/MenuLink/Content
 Languages:
 - Language: en
   Versions:
@@ -20,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220519T112444Z
+      Value: 20220521T112336Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +21,11 @@ Languages:
         sitecore\matthew.peel@jet2.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42ce8867-9fe8-4442-82fa-3f694d342e3f"
+      Value: "b0e591d2-dda0-4b9a-930a-c4fe749ed097"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\matthew.peel@jet2.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220523T074851Z
+      Value: 20220521T112336Z
