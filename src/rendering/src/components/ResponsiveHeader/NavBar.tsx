@@ -8,7 +8,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import React from 'react';
-import DestinationSearchInteral from '../DestinationSearch/DestinationSearchInteral';
+import DestinationSearchInternal from '../DestinationSearch/DestinationSearchInternal';
 
 type NavBarProps = ComponentProps & {
   fields: {
@@ -59,7 +59,7 @@ const NavBar = (props: NavBarProps) => {
             <ul className="nav-bar__tabs-list">
               <li className="nav-bar__tabs-list-search-hotel-item">
                 <div className="search-nav-button">
-                  <DestinationSearchInteral fields={props.fields.DestinationSearchBox.fields} />
+                  <DestinationSearchInternal fields={props.fields.DestinationSearchBox.fields} />
 
                   {/* <a
                     href="#search-nav-button"

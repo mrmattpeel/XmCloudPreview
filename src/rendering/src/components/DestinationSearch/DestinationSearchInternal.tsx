@@ -8,10 +8,10 @@ type DestinationSearchProps = {
   };
 };
 
-const DestinationSearchInteral = ({ fields }: DestinationSearchProps): JSX.Element => (
+const DestinationSearchInternal = ({ fields }: DestinationSearchProps): JSX.Element => (
   <div className='search-nav-input__form'>
     <AutoCompleteBox phText={fields.DestinationLabel.value} />
   </div>
 );
 
-export default (DestinationSearchInteral);
+export default (DestinationSearchInternal);

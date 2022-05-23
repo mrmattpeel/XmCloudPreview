@@ -29,7 +29,7 @@ const AutoCompleteBox = (props: ComponentProps): JSX.Element => {
     const userInput = e.currentTarget.value;
 
     if (userInput.length >= 3 && userInput.length < 20) {
-      const searchResp = await axios.get(`https://www.xmcloudpreview.localhost/api/jet2/destinations/${userInput}`);
+      const searchResp = await axios.get(`/api/jet2/destinations/${userInput}`);
       const searchResults = searchResp.data.search.results.map((result: any) => {
         return result.displayName;
       });
